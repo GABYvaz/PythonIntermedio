@@ -7,6 +7,7 @@ def divisors(num):
 
 def run():
     num = int(input("Ingresa un numero: "))
+    assert num.isumeric()
     print(divisors(num))
     print("termino mi programa")
 

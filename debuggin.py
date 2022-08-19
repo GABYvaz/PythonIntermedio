@@ -6,10 +6,10 @@ def divisors(num):
             return divisors
 
 def run():
+    
     num = int(input("Ingresa un numero: "))
-    print(divisors(numm))
+    print(divisors(num))
     print("termino mi programa")
 
-
-if _name_ == '_main_':
+if __name__ == '__main__':
     run()
